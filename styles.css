@@ -40,6 +40,7 @@ body#page-course-view-remuiformat.editing .remui-format-card.all-section-format 
 body#page-course-view-remuiformat.editing .remui-format-card.single-section-format .activity-cards .actions {
   top: 1rem;
   right: 0.5rem;
+  z-index: 10;
 }
 
 body#page-course-view-remuiformat.editing .remui-format-card.single-section-format .activity-cards .wdm-mod-name {
@@ -2695,5 +2696,5 @@ body:not(.editing) #page-content .course-content ul li.section.main.delegated-se
 }
 
 .edw-m405 #page .editing_move {
-	display: none !important;
+  display: none !important;
 }
